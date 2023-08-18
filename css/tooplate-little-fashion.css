@@ -27,6 +27,8 @@ html {
   height: 100%;
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -41,6 +43,9 @@ body {
     background: var(--white-color);
     font-family: var(--body-font-family);    
     position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 
 /*---------------------------------------
@@ -101,6 +106,7 @@ p {
   font-weight: var(--font-weight-light);
 }
 
+
 a, 
 button {
   touch-action: manipulation;
@@ -124,6 +130,10 @@ a:hover {
   background: #4985FF;
   color: var(--white-color);
 }
+
+img {
+   pointer-events: none;
+   }
 
 /*---------------------------------------
   CUSTOM LINK               
@@ -1433,3 +1443,12 @@ a.active {background: white;}
   width: 100%;
  
 } 
+
+
+.margin {
+  margin: 2% 0;;
+}
+
+.border-radius {
+  border-radius: 5%;
+}
