@@ -135,6 +135,7 @@ img {
    pointer-events: none;
    }
 
+
 /*---------------------------------------
   CUSTOM LINK               
 -----------------------------------------*/
@@ -1452,3 +1453,8 @@ a.active {background: white;}
 .border-radius {
   border-radius: 5%;
 }
+
+
+.product-image {
+  pointer-events: all;
+ }
