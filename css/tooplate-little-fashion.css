@@ -1478,6 +1478,17 @@ a.active {background: white;}
   padding: 0;
 }
 
+.text_card_team {
+  width: 100%;
+}
+
+.slider_hero {
+  width: 75%;
+}
+
+.center {
+  width: 50%;
+}
 
 
    
