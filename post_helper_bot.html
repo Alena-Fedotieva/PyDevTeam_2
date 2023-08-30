@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>PyDevTeam</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/slick.css" />
+
+    <link rel="shortcut icon" type="'img/logo.p" href="tab.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css"
+    />
+
+    <link href="css/tooplate-little-fashion.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <section class="preloader">
+      <div class="spinner">
+        <span class="sk-inner-circle"></span>
+      </div>
+    </section>
+
+    <main>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <a class="navbar-brand" href="index.html">
+            <img src="logo.png" alt="logo" class="logo" />
+          </a>
+
+          <div class="d-lg-none">
+            <a href="sign-in.html" class="bi-person custom-icon me-3"></a>
+
+            <a href="product-detail.html" class="bi-bag custom-icon"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Головна</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">Про Нас</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Послуги</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Контакти</a>
+              </li>
+            </ul>
+
+            <div class="d-none d-lg-block">
+              <a
+                href="tel:+380738876263"
+                class="social-icon-link bi-telephone-fill"
+              ></a>
+
+              <a
+                href="https://t.me/PydevTeam"
+                class="social-icon-link bi-telegram"
+              ></a>
+
+              <a
+                href="https://www.whatsapp.com/"
+                class="social-icon-link bi-whatsapp"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <header
+        class="site-header section-padding d-flex justify-content-center align-items-center"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 col-12">
+              <h1>
+                <span class="d-block text-primary">Post Helper </span>
+                <span class="d-block text-dark">Bot</span>
+              </h1>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="about section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-12 mt-auto mb-auto">
+              <ul
+                class="nav nav-pills mb-5 mx-auto justify-content-center align-items-center"
+                id="pills-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="pills-home-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-home"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-home"
+                    aria-selected="true"
+                  >
+                    Задача
+                  </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-youtube-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-youtube"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-youtube"
+                    aria-selected="true"
+                  >
+                    Можливості
+                  </button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pills-skill-tab"
+                    data-bs-toggle="pill"
+                    data-bs-target="#pills-skill"
+                    type="button"
+                    role="tab"
+                    aria-controls="pills-skill"
+                    aria-selected="false"
+                  >
+                    Рішення
+                  </button>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-10 col-12">
+              <div class="tab-content mt-2" id="pills-tabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="pills-home"
+                  role="tabpanel"
+                  aria-labelledby="pills-home-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-5 col-12 container_task">
+                      <div
+                        class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5"
+                      >
+                        <h2 class="mb-4">
+                          <span>Задача </span> (ТЗ від клієнта):
+                        </h2>
+
+                        <p class="lead mb-4">
+                          Створити мультимовного телеграм бота з можливістю
+                          вибору часового поясу для адміністраторів чатів та
+                          каналів. Бот повинен виконувати різноманітні функції
+                          для ефективного керування та підтримки спільнот у
+                          Telegram.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="pills-youtube"
+                  role="tabpanel"
+                  aria-labelledby="pills-youtube-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-7 col-12"></div>
+
+                    <div class="col-lg-5 col-12 container_task">
+                      <div
+                        class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5"
+                      >
+                        <h2 class="mb-4"><span>Основні </span> можливості:</h2>
+
+                        <p class="lead mb-4">
+                          Автоматична перевірка контенту на наявність репостів,
+                          посилань, "нічної тиші", а також антибот-перевірка
+                          нових підписників. Планування розсилок в обрані чати з
+                          можливістю закріплення повідомлень, автоматичного
+                          видалення через 24 години та інформування учасників.
+                          Видалення службових повідомлень від Telegram з чату.
+                          Перегляд та скасування запланованих розсилок.
+                        </p>
+                        <p class="lead mb-4">
+                          Можливість позбавити користувачів прав на 1 годину або
+                          назавжди без видалення їх з чату, з можливістю
+                          зберігання списку таких користувачів у форматі xlsx.
+                          Реалізація оплати підписки на бота за допомогою
+                          криптовалюти та банківської картки. Автоматичне
+                          повідомлення підписників про закінчення строку
+                          підписки за 1 та 24 години до закінчення. Масова
+                          розсилка повідомлень від адміністратора до підписників
+                          бота. Управління ботом через адмін-панель, реалізовану
+                          з використанням Django.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="tab-pane fade"
+                  id="pills-skill"
+                  role="tabpanel"
+                  aria-labelledby="pills-skill-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-5 col-12 container_opportunity">
+                      <div
+                        class="d-flex flex-column h-100 ms-lg-4 mt-lg-0 mt-5"
+                      >
+                        <h2 class="mb-4"><span>Рішення: </span></h2>
+
+                        <p class="lead mb-4">
+                          Відповідно до ТЗ, наша команда створила телеграм бота
+                          з використанням мови програмування Python та
+                          фреймворка AIOGRAM. Також була реалізована
+                          адмін-панель на основі Django, яка дозволяє
+                          здійснювати керування та моніторинг різних аспектів
+                          бота.
+                        </p>
+                        <p class="lead mb-4">
+                          Цей телеграм бот призначений для адміністраторів груп
+                          та каналів з метою полегшити процес управління та
+                          підтримки спільнот у Telegram. Він надає широкий
+                          спектр функцій для автоматизації різних завдань,
+                          включаючи фільтрацію повідомлень, розсилку, управління
+                          підписниками, моніторинг платежів та багато іншого.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="front-product">
+        <div class="container-fluid p-0 container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-12 margin">
+              <ul class="bxslider">
+                <li class="width">
+                  <img src="../PyDevTeam_2/images/progect_5/1.png" class="border-radius" />
+            
+                </li>
+                <li>
+                  <img
+                    src="../PyDevTeam_2/images/progect_5/2.png"
+                    class="border-radius"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../PyDevTeam_2/images/progect_5/3.png"
+                    class="border-radius"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../PyDevTeam_2/images/progect_5/4.png"
+                    class="border-radius"
+                  />
+                </li>
+                <li>
+                  <img
+                    src="../PyDevTeam_2/images/progect_5/5.png"
+                    class="border-radius"
+                  />
+                </li>
+              </ul>
+
+
+            </div>
+
+            <div class="col-lg-6 col-12">
+              <div class="px-5 py-5 py-lg-0">
+                <h2 class="mb-4">Результат:</h2>
+                <p class="lead mb-4">
+                  Результатом роботи над проектом є функціональний та ефективний
+                  телеграм бот, який відповідає всім вимогам ТЗ. Бот допомагає
+                  адміністраторам зосередитися на якісному керуванні спільнотами
+                  та надає зручні інструменти для взаємодії з підписниками.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-10 me-auto mb-4">
+            <h4 class="text-white mb-3"><a href="index.html">PyDev</a> Team</h4>
+            <p class="copyright-text text-muted mt-lg-5 mb-4 mb-lg-0">
+              © 2023 PyDev <strong>Team.</strong>
+            </p>
+            <br />
+            <p class="copyright-text">Designed by All rights reserved.</p>
+          </div>
+
+          <div class="col-lg-5 col-8">
+            <h5 class="text-white mb-3">Меню</h5>
+
+            <ul class="footer-menu d-flex flex-wrap">
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Головна</a>
+              </li>
+
+              <li class="footer-menu-item">
+                <a href="./products.html" class="footer-menu-link">Послуги</a>
+              </li>
+
+              <li class="footer-menu-item">
+                <a href="about.html" class="footer-menu-link">Про Нас</a>
+              </li>
+
+              <li class="footer-menu-item">
+                <a href="#" class="footer-menu-link">Контакти</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-4">
+            <h5 class="text-white mb-3">Соціальні Мережі</h5>
+
+            <ul class="social-icon">
+              <li>
+                <a
+                  href="tel:+380738876263"
+                  class="social-icon-link bi-telephone"
+                ></a>
+              </li>
+
+              <li><a href="#" class="social-icon-link bi-whatsapp"></a></li>
+
+              <!-- <li><a href="#" class="social-icon-link bi-instagram"></a></li> -->
+
+              <li>
+                <a
+                  href="https://t.me/PydevTeam"
+                  class="social-icon-link bi-telegram"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Headroom.js"></script>
+    <script src="js/jQuery.headroom.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+
+    
+    <script src="../PyDevTeam_2/js/jquery.easing.1.3.js"></script>
+    <script src="../PyDevTeam_2/js/jquery.bxslider.js"></script>
+    <script>
+      // Код для bxSlider
+      var $jq = jQuery.noConflict();
+      $jq(document).ready(function () {
+        $jq(".bxslider").bxSlider({
+          nextText: "",
+          prevText: "",
+          useCSS: false,
+          easing: "jswing",
+          speed: 500,
+        });
+      });
+    </script>
+  </body>
+</html>

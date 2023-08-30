@@ -163,7 +163,7 @@ img {
 
 .lead {
   font-size: 1.5rem;
-  font-weight: var(--font-weight-thin);
+  font-weight: 300;
 }
 
 b,
@@ -1373,8 +1373,8 @@ ul {
   list-style: none;
 }
 .bx-wrapper {
-  width: 500px;
-  margin: 0 auto;
+  width: 800px;
+  margin: 0;
   position: relative;
 }
 .bx-wrapper img {
@@ -1447,7 +1447,8 @@ a.active {background: white;}
 
 
 .margin {
-  margin: 2% 0;;
+  margin: 2% 0;
+  width: 800px !important;
 }
 
 .border-radius {
@@ -1458,3 +1459,25 @@ a.active {background: white;}
 .product-image {
   pointer-events: all;
  }
+
+ .border-radius {
+  pointer-events: all;
+ }
+
+ .bx-viewport {
+  height: auto !important;
+ }
+
+.width {
+  width: 800px !important;
+}
+
+
+.col-lg-6 {
+  width: 40%;
+  padding: 0;
+}
+
+
+
+   
