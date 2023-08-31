@@ -493,8 +493,8 @@ strong {
 }
 
 .site-header.section-padding-img {
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .header-image {
@@ -513,11 +513,7 @@ strong {
 /*---------------------------------------
   SLICK SLIDESHOW               
 -----------------------------------------*/
-@media (min-width: 992px) {
-  .slick-slideshow {
-    height: 100vh;
-  }
-}
+
 
 .slick-slideshow {
   margin-top: 66px;
@@ -1490,5 +1486,361 @@ a.active {background: white;}
   width: 50%;
 }
 
+.mx-auto {
+  align-items: center;
+}
 
+.about-image {
+  width: 50%;
+}
+
+.about-info {
+  width: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padding_contact {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+
+/* АДАПТАЦИЯ */
+
+
+@media (max-width: 1400px) {
+  .container-servises {
+    width: 350px;
+  }
+
+  .flipper {
+    width: 350px;
+    height: 320px
+  }
+
+  .back {
+    height: 100%;
+  }
+
+  .progecte {
+    width: 90%;
+    margin: 20px;
+  }
+
+  .bx-wrapper img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+.bx-wrapper {
+  width: 600px;
+  margin: 0;
+  position: relative;
+}
+
+.margin {
+ margin: 0 auto;
+}
+.bx-wrapper {
+  width: 600px;
+  margin: 0 AUTO;
+  position: relative;
+}
+}
+
+
+@media (max-width: 1100px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    margin-right: 12PX;
+    margin-left: 12PX;
+  }
+
+  .social-icon-link {
+    margin-right: 5px;
+  }
+}
    
+@media (max-width: 1100px) {
+  .social-icon-link {
+    margin-right: 5px;
+  }
+}
+
+
+@media (max-width: 990px) {
+.copyright-text {
+  display: none;
+}
+
+.mb-4 {
+  margin: 0 !important;
+}
+
+.col-8 {
+ width: 60%;
+}
+
+.col-4 {
+  width: 35%;
+}
+
+.none {
+  display: none;
+}
+.social-icon-link {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.margin_bottom {
+  margin-bottom: 20px !important;
+}
+
+.servise {
+  flex: 0 0 auto;
+  width: 50%;
+}
+
+.contact_application {
+  width: 100%;
+}
+
+.bx-wrapper {
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.bx-wrapper img {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+}
+
+
+}
+
+@media (max-width: 700px) {
+  .navbar-brand {
+    width: 60%;
+  }
+
+
+
+.slick-slideshow {
+  margin-top: 50px;
+}
+
+.text {
+  font-size: 13px;
+  line-height: 17px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.title_big {
+  font-size: 40px;
+}
+
+.py-5 {
+  padding: 20px !important;
+}
+
+.slider_hero {
+  width: 85%;
+  padding-left: 10px;
+}
+
+.product-info {
+  padding: 10px 0px;
+}
+}
+
+@media (max-width: 600px) {
+.about-info {
+  width: 100%;
+}
+.about-image {
+  width: 90%;
+}
+
+.center_about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.site-header.section-padding-img {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.progect__pk {
+  width: 100%;
+  margin: 20px !important;
+}
+
+.contact_application {
+    width: 90%;
+   
+    padding-top: 30px;
+    margin: 0 auto;
+}
+
+.bx-wrapper img {
+  width: 90%;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+}
+
+
+@media (max-width: 500px)  {
+.container-servises {
+  width: 320px;
+  margin: 5px auto;
+}
+.flipper {
+  width: 300px;
+  height: 300px;
+}
+
+.back {
+  padding: 20px;
+  width: 90%;
+}
+.contact-info {
+  padding: 20px;
+}
+
+.mb-5 {
+  margin-bottom: 0 !important;
+}
+
+}
+
+
+@media (max-width: 400px) {
+
+  .bx-viewport {
+    width: 90% !important;
+    height: 487px;
+    margin: 0 auto !important;
+  }
+  
+  .bx-wrapper img {
+    width: 90%;
+    margin: 0 auto;
+  }
+.social-icon-link {
+  font-size: 10px;
+}
+.logo {
+  width: 50%;
+}
+
+
+.text {
+  font-size: 10px !important;
+  line-height: 10px;
+}
+
+.title {
+  font-size: 20px !important;
+}
+
+.title_big {
+  font-size: 25px !important;
+}
+
+.slick-slideshow .slick-dots li {
+  width: 5px;
+  height: 5px;
+}
+
+.section-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.mb-5 {
+  margin-bottom: 10px !important;
+}
+
+.mt-5 {
+  margin-top: 10px !important;
+}
+
+.mb-3 {
+  margin-bottom: 5px !important;
+}
+
+.mt-2 {
+  margin-top: 0 !important;
+}
+
+.center {
+  width: 90%;
+  margin: auto;
+}
+
+.py-5 {
+  padding: 10px !important;
+}
+
+.container-servises {
+  width: 250px;
+  margin: 5px auto;
+}
+.flipper {
+  width: 220px;
+  height: 180px;
+}
+
+.back {
+  padding: 20px;
+  width: 90%;
+}
+
+.none {
+  display: none;
+}
+
+.site-footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-menu-item {
+
+  width: 40%;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.product-thumb {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.servise {
+  flex: 0 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+}
+
