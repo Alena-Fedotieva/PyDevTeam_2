@@ -131,9 +131,6 @@ a:hover {
   color: var(--white-color);
 }
 
-img {
-   pointer-events: none;
-   }
 
 
 /*---------------------------------------
